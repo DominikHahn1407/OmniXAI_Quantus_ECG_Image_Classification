@@ -1,0 +1,109 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.python-version
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+logs/
+
+# Environment / Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# Data (large/raw/generated)
+data/raw/
+data/interim/
+data/processed/
+datasets/
+downloads/
+
+# Model files
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.pb
+
+# Experiment tracking
+mlruns/
+wandb/
+tensorboard/
+runs/
+events.out.tfevents.*
+
+# Results / Outputs
+outputs/
+results/
+predictions/
+reports/generated/
+
+# Cache
+.cache/
+pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Node (if using frontend tools)
+node_modules/
+
+# LaTeX (for thesis/paper)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Archives
+*.zip
+*.tar.gz
+*.7z
+
+**/data/
+**/data/**
